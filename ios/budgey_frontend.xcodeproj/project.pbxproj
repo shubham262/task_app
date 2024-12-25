@@ -12,11 +12,11 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		13C0034DCF99436C9026F151 /* IBMPlexMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A145A919B08D4FFA86E4F628 /* IBMPlexMono-Bold.ttf */; };
-		23602BB3BF2F5774B104611E /* libPods-budgey_frontend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3A542614D682FE4C726CE /* libPods-budgey_frontend.a */; };
 		2DD8A751BE554A9A92CD5FC5 /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E47438CC651B44FB950FA62F /* IBMPlexMono-Medium.ttf */; };
 		3BF193E803EB4AD7BF45A136 /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DF4FDC2454B4539A5E69DAD /* IBMPlexMono-Regular.ttf */; };
 		3D7D344C3BFC440EB2F6ADDD /* IBMPlexMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4F52196BDA14365A9D2C705 /* IBMPlexMono-Thin.ttf */; };
 		44847CA2DCE949BBBE7E4FB6 /* IBMPlexMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97F61A5C3410412A910C238A /* IBMPlexMono-BoldItalic.ttf */; };
+		5F7F8698E8A2F551A957C79C /* libPods-budgey_frontend-budgey_frontendTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FD800B25AB1881C811B174 /* libPods-budgey_frontend-budgey_frontendTests.a */; };
 		679C86EA5971479FBA361BB9 /* IBMPlexMono-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3414A50F8F234C4497D85B05 /* IBMPlexMono-LightItalic.ttf */; };
 		7A41A76B94514EAAB36A4D48 /* IBMPlexMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C4909310664455680314AA8 /* IBMPlexMono-ThinItalic.ttf */; };
 		80CEF2398B3A4FA395C049B5 /* IBMPlexMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B6824468B584A7E8FC8754A /* IBMPlexMono-Italic.ttf */; };
@@ -25,8 +25,8 @@
 		87E976F7531744CF862DBF5C /* IBMPlexMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 687A2558A78D4E8CB8E8B66C /* IBMPlexMono-MediumItalic.ttf */; };
 		9045F16FE1994F80B4029EAA /* IBMPlexMono-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D3D6A70D07B4E689A1EC86A /* IBMPlexMono-ExtraLightItalic.ttf */; };
 		9988738529A64287AA586684 /* IBMPlexMono-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB3B994A7134BA68B5CF311 /* IBMPlexMono-SemiBoldItalic.ttf */; };
+		A02A6378AE828756868725ED /* libPods-budgey_frontend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6D8402B465741B56A3ACA8 /* libPods-budgey_frontend.a */; };
 		C92548C2255A41E281A08BDB /* IBMPlexMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BEAACD87F974ACF81EAC225 /* IBMPlexMono-ExtraLight.ttf */; };
-		CCA573E187FF445963D631A0 /* libPods-budgey_frontend-budgey_frontendTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DADD773BCB3CC471F9745E /* libPods-budgey_frontend-budgey_frontendTests.a */; };
 		E309D8130A4E49ADB71875AB /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C771B85D8324776A5DC6CB0 /* IBMPlexMono-Light.ttf */; };
 /* End PBXBuildFile section */
 
@@ -51,11 +51,12 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = budgey_frontend/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = budgey_frontend/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = budgey_frontend/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		268D2A0C106A7A1BF9F280D4 /* Pods-budgey_frontend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budgey_frontend.release.xcconfig"; path = "Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend.release.xcconfig"; sourceTree = "<group>"; };
-		28DADD773BCB3CC471F9745E /* libPods-budgey_frontend-budgey_frontendTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-budgey_frontend-budgey_frontendTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3414A50F8F234C4497D85B05 /* IBMPlexMono-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-LightItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-LightItalic.ttf"; sourceTree = "<group>"; };
+		4543817CFF81EBE8A87847BD /* Pods-budgey_frontend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budgey_frontend.release.xcconfig"; path = "Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend.release.xcconfig"; sourceTree = "<group>"; };
+		45B6FE5DCDABB60D5324EE74 /* Pods-budgey_frontend-budgey_frontendTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budgey_frontend-budgey_frontendTests.debug.xcconfig"; path = "Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4BEAACD87F974ACF81EAC225 /* IBMPlexMono-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-ExtraLight.ttf"; path = "../src/assets/fonts/IBMPlexMono-ExtraLight.ttf"; sourceTree = "<group>"; };
-		5256E932F34B1BC42BA082CD /* Pods-budgey_frontend-budgey_frontendTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budgey_frontend-budgey_frontendTests.debug.xcconfig"; path = "Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A072E1CBCC988E2F025AA5A /* Pods-budgey_frontend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budgey_frontend.debug.xcconfig"; path = "Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend.debug.xcconfig"; sourceTree = "<group>"; };
+		5B6D8402B465741B56A3ACA8 /* libPods-budgey_frontend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-budgey_frontend.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		687A2558A78D4E8CB8E8B66C /* IBMPlexMono-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-MediumItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-MediumItalic.ttf"; sourceTree = "<group>"; };
 		6B6824468B584A7E8FC8754A /* IBMPlexMono-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Italic.ttf"; path = "../src/assets/fonts/IBMPlexMono-Italic.ttf"; sourceTree = "<group>"; };
 		6D3D6A70D07B4E689A1EC86A /* IBMPlexMono-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-ExtraLightItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -66,11 +67,10 @@
 		97F61A5C3410412A910C238A /* IBMPlexMono-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-BoldItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-BoldItalic.ttf"; sourceTree = "<group>"; };
 		A145A919B08D4FFA86E4F628 /* IBMPlexMono-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Bold.ttf"; path = "../src/assets/fonts/IBMPlexMono-Bold.ttf"; sourceTree = "<group>"; };
 		A4F52196BDA14365A9D2C705 /* IBMPlexMono-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Thin.ttf"; path = "../src/assets/fonts/IBMPlexMono-Thin.ttf"; sourceTree = "<group>"; };
-		A9D3A542614D682FE4C726CE /* libPods-budgey_frontend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-budgey_frontend.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FD800B25AB1881C811B174 /* libPods-budgey_frontend-budgey_frontendTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-budgey_frontend-budgey_frontendTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD16FB3FDA9447979D673C90 /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-SemiBold.ttf"; path = "../src/assets/fonts/IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
-		C23E63D613F26F722D477B86 /* Pods-budgey_frontend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budgey_frontend.debug.xcconfig"; path = "Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend.debug.xcconfig"; sourceTree = "<group>"; };
 		E47438CC651B44FB950FA62F /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Medium.ttf"; path = "../src/assets/fonts/IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
-		E639D529314FAA9A40AAE5C6 /* Pods-budgey_frontend-budgey_frontendTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budgey_frontend-budgey_frontendTests.release.xcconfig"; path = "Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC2A07271F174C05E2B367FD /* Pods-budgey_frontend-budgey_frontendTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budgey_frontend-budgey_frontendTests.release.xcconfig"; path = "Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAB3B994A7134BA68B5CF311 /* IBMPlexMono-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-SemiBoldItalic.ttf"; path = "../src/assets/fonts/IBMPlexMono-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA573E187FF445963D631A0 /* libPods-budgey_frontend-budgey_frontendTests.a in Frameworks */,
+				5F7F8698E8A2F551A957C79C /* libPods-budgey_frontend-budgey_frontendTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23602BB3BF2F5774B104611E /* libPods-budgey_frontend.a in Frameworks */,
+				A02A6378AE828756868725ED /* libPods-budgey_frontend.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,8 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				A9D3A542614D682FE4C726CE /* libPods-budgey_frontend.a */,
-				28DADD773BCB3CC471F9745E /* libPods-budgey_frontend-budgey_frontendTests.a */,
+				5B6D8402B465741B56A3ACA8 /* libPods-budgey_frontend.a */,
+				A7FD800B25AB1881C811B174 /* libPods-budgey_frontend-budgey_frontendTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,10 +171,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C23E63D613F26F722D477B86 /* Pods-budgey_frontend.debug.xcconfig */,
-				268D2A0C106A7A1BF9F280D4 /* Pods-budgey_frontend.release.xcconfig */,
-				5256E932F34B1BC42BA082CD /* Pods-budgey_frontend-budgey_frontendTests.debug.xcconfig */,
-				E639D529314FAA9A40AAE5C6 /* Pods-budgey_frontend-budgey_frontendTests.release.xcconfig */,
+				5A072E1CBCC988E2F025AA5A /* Pods-budgey_frontend.debug.xcconfig */,
+				4543817CFF81EBE8A87847BD /* Pods-budgey_frontend.release.xcconfig */,
+				45B6FE5DCDABB60D5324EE74 /* Pods-budgey_frontend-budgey_frontendTests.debug.xcconfig */,
+				EC2A07271F174C05E2B367FD /* Pods-budgey_frontend-budgey_frontendTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -208,12 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "budgey_frontendTests" */;
 			buildPhases = (
-				588F9F92C44DEAEF6C0E7924 /* [CP] Check Pods Manifest.lock */,
+				A1B10D279E469988441954FE /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				841FAC3923A1D6EC3BF7A559 /* [CP] Embed Pods Frameworks */,
-				A672D340222D32EFE9F823D4 /* [CP] Copy Pods Resources */,
+				981DEA3AF9FE2FF6CCCFC56F /* [CP] Embed Pods Frameworks */,
+				0CCD5B45AF7E6180C32F21D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,13 +229,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "budgey_frontend" */;
 			buildPhases = (
-				D937CC67E1EA2679CA0732A4 /* [CP] Check Pods Manifest.lock */,
+				637644715BF95959D174865D /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				2D21DDD24860B5963B11B692 /* [CP] Embed Pods Frameworks */,
-				4EAA9C34AA4009B114B43622 /* [CP] Copy Pods Resources */,
+				B43A2EB5EFDE253D3BCC2CDE /* [CP] Embed Pods Frameworks */,
+				1BB4009C23AE41D16B070014 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -332,24 +332,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		2D21DDD24860B5963B11B692 /* [CP] Embed Pods Frameworks */ = {
+		0CCD5B45AF7E6180C32F21D2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4EAA9C34AA4009B114B43622 /* [CP] Copy Pods Resources */ = {
+		1BB4009C23AE41D16B070014 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,7 +366,46 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		588F9F92C44DEAEF6C0E7924 /* [CP] Check Pods Manifest.lock */ = {
+		637644715BF95959D174865D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-budgey_frontend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		981DEA3AF9FE2FF6CCCFC56F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B10D279E469988441954FE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,60 +427,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		841FAC3923A1D6EC3BF7A559 /* [CP] Embed Pods Frameworks */ = {
+		B43A2EB5EFDE253D3BCC2CDE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A672D340222D32EFE9F823D4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend-budgey_frontendTests/Pods-budgey_frontend-budgey_frontendTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D937CC67E1EA2679CA0732A4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-budgey_frontend-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-budgey_frontend/Pods-budgey_frontend-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -477,7 +477,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5256E932F34B1BC42BA082CD /* Pods-budgey_frontend-budgey_frontendTests.debug.xcconfig */;
+			baseConfigurationReference = 45B6FE5DCDABB60D5324EE74 /* Pods-budgey_frontend-budgey_frontendTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -504,7 +504,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E639D529314FAA9A40AAE5C6 /* Pods-budgey_frontend-budgey_frontendTests.release.xcconfig */;
+			baseConfigurationReference = EC2A07271F174C05E2B367FD /* Pods-budgey_frontend-budgey_frontendTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -528,7 +528,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C23E63D613F26F722D477B86 /* Pods-budgey_frontend.debug.xcconfig */;
+			baseConfigurationReference = 5A072E1CBCC988E2F025AA5A /* Pods-budgey_frontend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -555,7 +555,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 268D2A0C106A7A1BF9F280D4 /* Pods-budgey_frontend.release.xcconfig */;
+			baseConfigurationReference = 4543817CFF81EBE8A87847BD /* Pods-budgey_frontend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
