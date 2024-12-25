@@ -8,6 +8,8 @@ import {
   TouchableOpacity,
   View,
   Platform,
+  SectionList,
+  FlatList,
 } from 'react-native';
 import {Text, FAB} from 'react-native-paper';
 import useStyledComponents from '../../assets/styles/home';
@@ -106,9 +108,9 @@ const Home = ({navigation}) => {
           }));
 
           // Auto scroll to top when date changes
-          if (scrollViewRef.current) {
-            scrollViewRef.current.scrollTo({x: 0, y: 0, animated: true});
-          }
+          // if (scrollViewRef.current) {
+          //   scrollViewRef.current.scrollTo({x: 0, y: 0, animated: true});
+          // }
         }}
         highlightDateNameStyle={{
           color: '#0A0A0A',
@@ -127,7 +129,7 @@ const Home = ({navigation}) => {
         }}
       />
 
-      <ScrollView
+      {/* <ScrollView
         ref={scrollViewRef}
         contentContainerStyle={{
           flexGrow: 1,
@@ -153,7 +155,28 @@ const Home = ({navigation}) => {
             </View>
           )}
         </View>
-      </ScrollView>
+      </ScrollView> */}
+
+      <FlatList
+        data={info?.selectedDateTasks}
+        // ref={scrollViewRef}
+        keyboardShouldPersistTaps="handled"
+        renderItem={({item, index}) => {
+          // console.log('task==>', item);
+          return (
+            <TouchableOpacity
+              key={index}
+              style={styles.taskItem}
+              onPress={() => navigation.navigate('TaskDetails', {item})}>
+              <Text style={styles.taskTitle}>{item?.name}</Text>
+              <Text style={styles.taskDescription}>{item.description}</Text>
+              <Text style={styles.taskDate}>
+                {moment(item.date).format('MMMM D, YYYY')}
+              </Text>
+            </TouchableOpacity>
+          );
+        }}
+      />
 
       <TouchableOpacity
         style={styles.customFab}
